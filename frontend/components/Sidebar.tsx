@@ -12,8 +12,16 @@ import {
   BarChart3, 
   Layers,
   Sparkles,
-  Sliders
+  Sliders,
+  Users
 } from 'lucide-react';
+
+const team = [
+  { roll: '02', name: 'Hardik Agarwal' },
+  { roll: '08', name: 'Ashmit Rawat' },
+  { roll: '12', name: 'Kavya Bhansali' },
+  { roll: '21', name: 'Deepmalika Das' },
+];
 
 interface SidebarProps {
   isOpen: boolean;
@@ -92,9 +100,21 @@ export default function Sidebar({ isOpen, setIsOpen }: SidebarProps) {
 
         {/* Footer */}
         <div className="border-t border-white/[0.03] p-4 bg-black/10">
-          <div className="px-3 py-2.5 rounded-xl border border-white/[0.03] bg-neutral-900/30 text-[10px]">
-            <p className="font-bold text-neutral-350">ROSPL Lab Mini Project</p>
-            <p className="text-neutral-500">Built to learn new tech</p>
+          <div className="px-3 py-3 rounded-xl border border-white/[0.03] bg-neutral-900/30">
+            <div className="flex items-center gap-1.5 mb-2.5">
+              <Users className="h-3 w-3 text-indigo-400" />
+              <p className="text-[9px] uppercase font-bold text-neutral-500 tracking-widest">Team · ROSPL Lab</p>
+            </div>
+            <ul className="space-y-1.5">
+              {team.map((member) => (
+                <li key={member.roll} className="flex items-center gap-2.5">
+                  <span className="flex h-5 w-6 shrink-0 items-center justify-center rounded-md bg-indigo-500/10 border border-indigo-500/20 text-[9px] font-bold text-indigo-400 tabular-nums">
+                    {member.roll}
+                  </span>
+                  <span className="text-[11px] font-semibold text-neutral-300 truncate">{member.name}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </aside>
