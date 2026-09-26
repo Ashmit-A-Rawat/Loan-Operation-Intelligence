@@ -9,7 +9,7 @@
     },
     "accuracy": 0.43,
     "partial_or_better": 0.86,
-    "avg_retrieval_time_ms": 528.95
+    "avg_retrieval_time_ms": 2047.29
   },
   "results": [
     {
@@ -39,7 +39,7 @@
         "content_preview": "If the EMI payment is not received by the due date, a late payment fee of 2% of the overdue EMI amount or \u20b9500 (whichever is higher) will be charged. The penalty is applied after a 3-day grace period "
       },
       "total_results": 3,
-      "retrieval_time_ms": 1212.47
+      "retrieval_time_ms": 10913.8
     },
     {
       "test_id": "rag_002",
@@ -63,7 +63,7 @@
         "content_preview": "Loan restructuring allows modification of loan terms to make payments more manageable: 1) Tenure Extension \u2014 extend the loan period by up to 24 months to reduce monthly EMI (e.g., \u20b915,000 EMI becomes "
       },
       "total_results": 2,
-      "retrieval_time_ms": 411.97
+      "retrieval_time_ms": 323.97
     },
     {
       "test_id": "rag_003",
@@ -89,7 +89,7 @@
         "content_preview": "When a borrower expresses financial difficulty, respond with empathy: 'I understand you're going through a challenging time. We have several options that may help.' Available options include: 1) EMI H"
       },
       "total_results": 3,
-      "retrieval_time_ms": 416.42
+      "retrieval_time_ms": 1557.31
     },
     {
       "test_id": "rag_004",
@@ -118,7 +118,7 @@
         "content_preview": "If the EMI payment is not received by the due date, a late payment fee of 2% of the overdue EMI amount or \u20b9500 (whichever is higher) will be charged. The penalty is applied after a 3-day grace period "
       },
       "total_results": 3,
-      "retrieval_time_ms": 524.29
+      "retrieval_time_ms": 564.16
     },
     {
       "test_id": "rag_005",
@@ -143,12 +143,12 @@
         "content_preview": "Home loans available from \u20b95,00,000 to \u20b95,00,00,000 with interest rates starting at 8.35% per annum. Tenure up to 30 years. Loan-to-value ratio up to 80% for properties up to \u20b930 lakhs and 75% for hig"
       },
       "total_results": 2,
-      "retrieval_time_ms": 385.35
+      "retrieval_time_ms": 329.21
     },
     {
       "test_id": "rag_006",
       "query": "I want to file a complaint about the service",
-      "description": "Escalation trigger \u00e2\u20ac\u201d complaint handling",
+      "description": "Escalation trigger \u2014 complaint handling",
       "expected_category": "escalation",
       "expected_keywords": [
         "complaint",
@@ -167,7 +167,7 @@
         "content_preview": "Escalate the call to a human agent in the following situations: 1) Customer explicitly requests to speak with a human agent \u2014 always honor this request. 2) Identity verification fails after 3 attempts"
       },
       "total_results": 1,
-      "retrieval_time_ms": 380.42
+      "retrieval_time_ms": 330.33
     },
     {
       "test_id": "rag_007",
@@ -191,7 +191,7 @@
         "content_preview": "A grace period of 3 calendar days is provided after the EMI due date. No late payment fee is charged if the payment is received within this grace period. However, this grace period does not extend to "
       },
       "total_results": 3,
-      "retrieval_time_ms": 371.71
+      "retrieval_time_ms": 312.24
     }
   ]
 }

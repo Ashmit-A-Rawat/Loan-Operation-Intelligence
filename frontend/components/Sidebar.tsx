@@ -10,7 +10,6 @@ import {
   FileCheck, 
   Mic, 
   BarChart3, 
-  Activity,
   Layers,
   Sparkles,
   Sliders
@@ -91,18 +90,11 @@ export default function Sidebar({ isOpen, setIsOpen }: SidebarProps) {
           })}
         </nav>
 
-        {/* Footer/System Health */}
+        {/* Footer */}
         <div className="border-t border-white/[0.03] p-4 bg-black/10">
-          <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl border border-white/[0.03] bg-neutral-900/30 backdrop-blur-sm">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-450 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-            </span>
-            <div className="flex-1 text-[10px]">
-              <p className="font-bold text-neutral-350">System Stream</p>
-              <p className="text-neutral-500">Operational & ready</p>
-            </div>
-            <Activity className="h-4 w-4 text-neutral-600" />
+          <div className="px-3 py-2.5 rounded-xl border border-white/[0.03] bg-neutral-900/30 text-[10px]">
+            <p className="font-bold text-neutral-350">ROSPL Lab Mini Project</p>
+            <p className="text-neutral-500">Built to learn new tech</p>
           </div>
         </div>
       </aside>

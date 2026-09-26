@@ -70,7 +70,7 @@ export default function LandingPage() {
         {/* Hero Section */}
         <section className="text-center max-w-3xl mx-auto space-y-6 animate-fade-in">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-500/20 px-3 py-1 text-[10px] font-bold text-indigo-600 dark:text-indigo-400">
-            <Sparkles className="h-3 w-3" /> Outbound AI Loan Operations System
+            <Sparkles className="h-3 w-3" /> ROSPL Lab Mini Project
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-[1.1] bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-600 dark:from-white dark:via-neutral-200 dark:to-neutral-500 bg-clip-text text-transparent">
@@ -78,7 +78,7 @@ export default function LandingPage() {
           </h1>
           
           <p className="text-sm md:text-base text-neutral-550 dark:text-neutral-450 leading-relaxed font-medium">
-            An end-to-end production-grade platform pairing conversational voice bots with real-time semantic knowledge lookup, outbound compliance scoring, and live supervisor telemetry.
+            A hands-on learning project where we explored modern AI tooling end to end: conversational voice bots, semantic search with vector databases, retrieval-augmented generation, PII filtering, and real-time streaming.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -104,20 +104,20 @@ export default function LandingPage() {
         {/* Highlights Bar */}
         <section className="grid grid-cols-2 md:grid-cols-4 gap-6 p-6 rounded-2xl border border-[var(--card-border)] bg-[var(--card-bg)] backdrop-blur-md shadow-lg glass-panel max-w-4xl mx-auto">
           <div className="text-center">
-            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">98.7%</p>
-            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">RAG Accuracy</p>
+            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">RAG</p>
+            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Grounded Answers</p>
           </div>
           <div className="text-center border-l border-[var(--card-border)]">
-            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">&lt; 850ms</p>
-            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">ASR SLA (P95)</p>
+            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">Voice AI</p>
+            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Vapi + Deepgram</p>
           </div>
           <div className="text-center border-l border-[var(--card-border)] md:border-l">
-            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">Zero-PII</p>
-            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Ingestion Shield</p>
+            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">Vectors</p>
+            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Pinecone Search</p>
           </div>
           <div className="text-center border-l border-[var(--card-border)]">
-            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">Live</p>
-            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Supervisor Nudges</p>
+            <p className="text-2xl font-black text-indigo-500 dark:text-indigo-400">Real-Time</p>
+            <p className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider mt-1">Redis + SSE</p>
           </div>
         </section>
 
@@ -327,7 +327,7 @@ export default function LandingPage() {
               Modern Technology Stack
             </h2>
             <p className="text-xs text-neutral-500 dark:text-neutral-450 max-w-lg mx-auto leading-relaxed">
-              Built on performant and scalable frameworks to satisfy standard enterprise infrastructure standards.
+              The frameworks and services we set out to learn while building this project.
             </p>
           </div>
 
@@ -381,14 +381,7 @@ export default function LandingPage() {
             <span>Loan Operation Intelligence System</span>
             <span className="text-[10px] text-indigo-500 dark:text-indigo-400">v1.2</span>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-450 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-            </span>
-            <span className="font-bold text-[10px]">All Systems Operational</span>
-          </div>
-          <p className="font-medium text-[10px]">© 2026 Antigravity IDE system. Built for AI Engineering Portfolio.</p>
+          <p className="font-medium text-[10px]">ROSPL Lab Mini Project · Built to learn new tech</p>
         </div>
       </footer>
 
