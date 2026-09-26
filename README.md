@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="assets/landing.png" alt="Loan Operation Intelligence" width="100%" />
-
-<br/><br/>
-
 # 🏦 Loan Operation Intelligence
 
 ### ROSPL Lab · Mini Project
@@ -23,7 +19,7 @@
 
 <br/>
 
-[Live Demo](https://loan-operation-intelligence.vercel.app/) · [Video Walkthrough](https://drive.google.com/file/d/1hR9fkAwx0i1Q-R9VuoQk8MwY0zsJsrv3/view?usp=drive_link) · [Run It Locally](#-running-it-locally) · [What We Learned](#-what-we-learned)
+[Run It Locally](#-running-it-locally) · [What We Learned](#-what-we-learned)
 
 </div>
 
@@ -114,20 +110,6 @@ flowchart LR
 
 **When a record is added to the knowledge base:**
 validate → detect PII → split into chunks → create embeddings → save to PostgreSQL + Pinecone
-
----
-
-## 🖼️ Screenshots
-
-> Screenshots were taken before the latest UI updates (team panel, ROSPL branding).
-
-| Dashboard | Ops Console |
-| :---: | :---: |
-| <img src="assets/dashboard.png" alt="Dashboard" /> | <img src="assets/ops_console.png" alt="Ops Console" /> |
-| **Knowledge Base** | **Retrieval Test** |
-| <img src="assets/knowledge_base.png" alt="Knowledge Base" /> | <img src="assets/retrieval_test.png" alt="Retrieval Test" /> |
-| **Semantic Search** | **Analytics** |
-| <img src="assets/search.png" alt="Semantic Search" /> | <img src="assets/analytics.png" alt="Analytics" /> |
 
 ---
 
